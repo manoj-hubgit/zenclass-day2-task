@@ -1,0 +1,85 @@
+What is DOM?
+    DOM refers to Document Object Model.
+    When web page is loaded the browser creates a document object model of the page.
+    With the help of DOM:
+              JavaScript can change HTML elements and attributes.
+              JavaScript can change CSS styles.
+              JavaScript can remove and add HTML elements and attributes.
+              JavaScript can create new HTML events in the page.
+What is BOM?
+    BOM stands for Browser Object Model.
+    Windows is under BOM.
+    There is no standardization for BOM. Browser can define accordingly.
+    BOM helps to communicate with different windows.
+
+ What are all the browser components?
+         User interface.
+         
+         Browser engine  --> Load a web page and coordinates the resources needed.
+                             It manages your browsing actions.
+                             Displays error messages if something goes wrong.
+        
+        Rendering engine --> Interpret HTML and XML documents, along with images styled using CSS.
+                             Generates the final layout of the web page.
+
+Rendering engine:
+        Rendering engine converts HTML source code and css source codes to DOM nodes and these DOM nodes are called DOM tree.
+
+How DOM is structured?
+        The file is processed and converts into object state.
+        We can access the things inside DOM.
+        DOM is not specfic to JS.
+        DOCUMENT will be the in DOM. 
+        There are two type of environment web and NodeJs environment.
+        DOM is only available in web environment.
+
+What is Document object?
+       It represent a web page that is loaded on browser.
+       We can access the HTML elements by accessing Document object.
+       For accessing there are two ways:
+                  1)window.document
+                  2)document
+             
+What is Windows object?        
+        The window object is the topmost object of the DOM hierarchy.
+        Whenever a window appear to display content of the document window object is created.
+
+The difference between DOM and BOM.
+   DOM:
+           1)It focus on the structure of displayed document.
+           2)It access and modify the element and content of an HTML document.
+           3)When HTML document loaded in the browser,it become document object.
+           4)It manipulate or update the structure, content and styling of web document. 
+           
+           
+
+   BOM:
+           1)It focus on the browser specfic functionality. 
+           2)It allows JS to intract with browser features.    
+           3)Windows object will be created automatically by the browser.
+           4)It handle the navigation,manages history,access browser related information.
+          
+
+The difference between Document and Window:
+
+   DOCUMENT:
+           1)It represents the web page that is loaded in the browser.
+           2)It is loaded inside the window.
+           3)It is the object of the window.
+           4)We can access document by (window.document).
+           5)Tags, elements with attributes in HTML are part of the document.
+           6)The document is the part of BOM and DOM.
+           7)Properties of the document object such as title, body, cookies, etc., can indeed be accessed via the window object as well. 
+           This is because the document object is a property of the window object.
+
+   WINDOW:       
+           1)It represents a browser window or frame that displays the content of the webpage. 
+           2)It is the object that browser loads first.
+           3)It is the object of the browser.
+           4)We can access window by (window).
+           5)Global objects, functions, and variables are members of the window object.
+           6)The Window is a part of BOM not a part of DOM.
+           7)Properties of the window object cannot be accessed by the document object.
+
+
+        
