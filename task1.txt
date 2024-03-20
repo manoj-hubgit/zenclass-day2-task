@@ -1,3 +1,5 @@
+                Blog on the difference between document and window object.
+            
 What is DOM?
     DOM refers to Document Object Model.
     When web page is loaded the browser creates a document object model of the page.
@@ -29,7 +31,7 @@ How DOM is structured?
         The file is processed and converts into object state.
         We can access the things inside DOM.
         DOM is not specfic to JS.
-        DOCUMENT will be the in DOM. 
+        DOCUMENT will be there in DOM. 
         There are two type of environment web and NodeJs environment.
         DOM is only available in web environment.
 
@@ -40,7 +42,7 @@ What is Document object?
                   1)window.document
                   2)document
              
-What is Windows object?        
+What is Window object?        
         The window object is the topmost object of the DOM hierarchy.
         Whenever a window appear to display content of the document window object is created.
 
@@ -76,7 +78,7 @@ The difference between Document and Window:
            1)It represents a browser window or frame that displays the content of the webpage. 
            2)It is the object that browser loads first.
            3)It is the object of the browser.
-           4)We can access window by (window).
+           4)We can access window by (window.window or window).
            5)Global objects, functions, and variables are members of the window object.
            6)The Window is a part of BOM not a part of DOM.
            7)Properties of the window object cannot be accessed by the document object.
